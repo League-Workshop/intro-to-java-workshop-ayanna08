@@ -7,9 +7,23 @@ public class MyFirstJavaProgram {
 	
 	public static void main(String[] args) {
 		
-		// START HERE
-	
+		Robot ayanna = new Robot();	
+		ayanna.penDown();
+		ayanna.setSpeed(10);
+		ayanna.setRandomPenColor();
+		ayanna.move(100);
+		ayanna.turn(90);
+		ayanna.setRandomPenColor();
+		ayanna.move(100);
+		ayanna.turn(90);
+		ayanna.setRandomPenColor();
+		ayanna.move(100);
+		ayanna.turn(90);
+		ayanna.setRandomPenColor();
+		ayanna.move(100);
+		ayanna.turn(90);
 		
 		
-	}
+		
+		}
 }
