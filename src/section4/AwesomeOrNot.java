@@ -23,8 +23,7 @@ public class AwesomeOrNot {
 		if (number == 0) {
 			JOptionPane.showMessageDialog(null, input + " is Awesome");
 
-		} 
-		else if (number == 1) {
+		} else if (number == 1) {
 
 			// -- tell the user whatever they entered is awesome!
 			JOptionPane.showMessageDialog(null, input + " is OK");

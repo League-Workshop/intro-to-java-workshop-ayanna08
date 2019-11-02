@@ -17,18 +17,15 @@ public class SpeakAndSpell {
 		// 4. Otherwise say "wrong"
 
 		// 5. repeat the process for other words
-		
+
 	}
 
 	static void speak(String words) {
 		try {
 			Runtime.getRuntime().exec("say " + words).waitFor();
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
 }
-
-
